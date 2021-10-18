@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "CursoJS_COD3R",
+			"path": "../../CursoJS_COD3R"
+		},
+		{
+			"name": "CursoPHP_COD3R",
+			"path": "../../CursoPHP_COD3R"
+		}
+	],
+	"settings": {}
+}
