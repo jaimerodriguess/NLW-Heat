@@ -1,11 +1,11 @@
 import styles from './App.module.scss';
 import { LoginBox } from './components/LoginBox';
-import { MensageList } from './components/MensageList';
+import { MessageList } from './components/MessageList';
 
 export function App() {
   return (
    <main className={styles.contentWrapper}>
-        <MensageList />
+        <MessageList />
         <LoginBox />
    </main>
   )
