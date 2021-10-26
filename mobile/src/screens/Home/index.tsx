@@ -4,6 +4,7 @@ import { View, Text } from "react-native";
 import { Header } from "../../components/Headers";
 import { MessageList } from "../../components/MessageList";
 import { SigInBox } from "../../components/SignInBox";
+import { SendMessageForm } from "../../components/SendMessageForm";
 
 import { styles } from './styles'
 
@@ -12,7 +13,7 @@ export function Home() {
         <View style={styles.container}>
             <Header />
             <MessageList />
-            <SigInBox />
+            <SendMessageForm />            
         </View>
     )
 }
