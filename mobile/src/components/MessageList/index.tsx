@@ -13,7 +13,6 @@ const message = {
     }
 }
 
-
 export function MessageList() {
     return(
         <ScrollView 
@@ -21,6 +20,14 @@ export function MessageList() {
             contentContainerStyle={styles.content}
             keyboardShouldPersistTaps="never"
         >
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
+            <Message data={message}/>
             <Message data={message}/>
             <Message data={message}/>
             <Message data={message}/>
